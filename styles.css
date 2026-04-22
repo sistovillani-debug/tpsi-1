@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #2e679c; /* Il blu del titolo Today News */
+    font-size: 32px;
+}
+
+#news {
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+/* Stile del pulsante verde */
+.btn-load {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-load:hover {
+    background-color: #218838;
+}
+
+/* Contenitore con bordo (opzionale, se vuoi l'effetto card) */
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
