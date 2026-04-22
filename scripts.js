@@ -4,7 +4,7 @@ function loadNews() {
  //Definisce la risorsa (news.txt) da aprire sul server
  // e il metodo http (get) da usare per l’invio della
  richiesta
- xhr.open("get", "news.txt");
+ xhr.open("get", "google.com");
  //Definisce una funzione callback
  //e effettua il controllo se la risposta è stata ricevuta
  interamente
